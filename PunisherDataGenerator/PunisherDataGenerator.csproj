@@ -42,6 +42,12 @@
     <Compile Include="DataGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Punisher\Punisher.csproj">
+      <Project>{D26612E3-9F74-441E-A2D4-88F920C21FE1}</Project>
+      <Name>Punisher</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
